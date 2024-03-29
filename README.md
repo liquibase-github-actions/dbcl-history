@@ -1,8 +1,7 @@
 # Liquibase Dbcl History Action
 Official GitHub Action to run Liquibase Dbcl History in your GitHub Action Workflow. For more information on how dbcl history works visit the [Official Liquibase Documentation](https://docs.liquibase.com/commands/home.html).
 ## Dbcl History
-[PRO]
-List all rows from the Liquibase Pro 'DATABASECHANGELOGHISTORY' tracking table.
+[PRO] List all rows from the Liquibase Pro 'DATABASECHANGELOGHISTORY' tracking table.
 ## Usage
 ```yaml
 steps:
