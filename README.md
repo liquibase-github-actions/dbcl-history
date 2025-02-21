@@ -6,7 +6,7 @@ Official GitHub Action to run Liquibase Dbcl History in your GitHub Action Workf
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/dbcl-history@v4.31.0
+- uses: liquibase-github-actions/dbcl-history@v4.31.1
   with:
     # The JDBC database connection URL
     # string
@@ -65,7 +65,7 @@ The liquibase dbcl history action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/dbcl-history@v4.31.0
+  - uses: liquibase-github-actions/dbcl-history@v4.31.1
     with:
       url: ""
       headless: true
